@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ch3</string>
+    <string name="title_activity_calculator">Calculator</string>
+    <string name="title_activity_info">Info</string>
+</resources>
