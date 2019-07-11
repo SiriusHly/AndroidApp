@@ -11,12 +11,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class EditTextTestActivity extends AppCompatActivity {
-
     Button btnOk;
     EditText txtCongratulations;
     TextView txtHint;
     int count=0;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

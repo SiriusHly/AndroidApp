@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.javahly.ch8.MainActivity">
+    <EditText
+        android:id="@+id/txtNumber"
+        android:textSize="30dp"
+        android:hint="请输入上界数字"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnStart"
+        android:text="绑定启动MathService"
+        android:textSize="20dp"
+        android:onClick="btnStartClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnStop"
+        android:text="停止绑定MathService"
+        android:textSize="20dp"
+        android:onClick="btnStopClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnSum"
+        android:text="求和"
+        android:textSize="20dp"
+        android:onClick="btnSumClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnJieCheng"
+        android:text="求阶乘"
+        android:textSize="20dp"
+        android:onClick="btnJieChengClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtResult"
+        android:textSize="30dp"
+        android:hint="计算结果是"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+

@@ -248,7 +248,6 @@
                 android:textSize="15dp" />
         </LinearLayout>
 
-
     </LinearLayout>
     <!--match_parent：组件大小和权重成反比-->
     <!--wrap_content ：组件大小和权重成正比-->

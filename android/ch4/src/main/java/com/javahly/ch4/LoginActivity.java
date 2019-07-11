@@ -39,6 +39,8 @@ public class LoginActivity extends AppCompatActivity {
                 intent.putExtra("id", id);
                 intent.putExtra("password", password);
                 intent.setClass(LoginActivity.this, MainActivity.class);
+                //startActivity(intent);
+                //错误能返回
                 startActivityForResult(intent,1);
             }
         });
@@ -58,5 +60,4 @@ public class LoginActivity extends AppCompatActivity {
         String result = data.getExtras().getString("result");
         Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
     }
-
 }

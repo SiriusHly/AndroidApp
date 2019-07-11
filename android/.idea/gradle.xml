@@ -9,10 +9,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ch10" />
             <option value="$PROJECT_DIR$/ch2" />
             <option value="$PROJECT_DIR$/ch3" />
             <option value="$PROJECT_DIR$/ch4" />
             <option value="$PROJECT_DIR$/ch5" />
+            <option value="$PROJECT_DIR$/ch6" />
+            <option value="$PROJECT_DIR$/ch7" />
+            <option value="$PROJECT_DIR$/ch8" />
+            <option value="$PROJECT_DIR$/ch9" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
